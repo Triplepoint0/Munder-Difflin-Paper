@@ -1,3 +1,25 @@
+#divm {width: 50%; height: 50%;}
+#div1 {background: #25CCF7; opacity: 10%}
+#div2 {background: #ffb142;}
+#div3 {background: #18dcff;}
+
+#divm div {
+    height: 800px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 header{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
@@ -26,4 +48,4 @@ header{
     background-color: #4CAF50;
     color: white;
   }
-
+  
