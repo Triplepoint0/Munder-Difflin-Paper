@@ -1,10 +1,44 @@
-#divm {width: 50%; height: 50%;}
-#div1 {background: #25CCF7; opacity: 10%}
-#div2 {background: #ffb142;}
-#div3 {background: #18dcff;}
+body{
+    background-image: url("ppr.jpg");
+}
 
-#divm div {
+
+#sus {background: #25CCF7;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;;
+}
+#env {background: #ffb142;}
+#trc {background: #18dcff;}
+
+#boxes section{
+    width: 100%; height: 800px;;
+    position: relative;
+}
+
+#div1.t1{
+    width: 62.5%;
     height: 800px;
+    background-color: #FCA523;
+}
+
+#div1.t2{  
+    width: 37.5%;
+    height: 400px;
+    position: absolute; 
+    top: 0px; right: 0;
+    font-size: 18px;
+    background: #02F2EA;
+}
+
+#div1.t3{
+    width: 37.5%;
+    height: 400px;
+    position: absolute; 
+    bottom: 0px; right: 0;
+    font-size: 18px;
+    background-color: #FFFCF9;
 }
 
 .center {
@@ -40,7 +74,7 @@ header{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-image: url("ppr.jpg");
     color: black;
   }
   
