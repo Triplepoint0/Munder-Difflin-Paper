@@ -73,7 +73,7 @@ header{
     border: 1px; 
     padding: 25px;
     overflow: auto;
-    background-color: #333;
+    
     opacity: 0.7;
     display: flex;
     justify-content: center;
