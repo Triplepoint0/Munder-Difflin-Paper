@@ -23,31 +23,43 @@ body{
 
 #mission {
     margin: auto;
-    width: 60%;
-    border: 2px solid white;
-    font-size: 25px;
+    max-width: 100%;
+    border: 1px solid white;
+    font-size: 20px;
+    overflow:scroll;
 }
 #env {
     
 }
 #trc {
- height: 400px;   
+ height: 400px;
+ border: 1px solid white;
+ opacity: .7;
+ background-color: #222;
+ font-size:
+
 }
 
 #boxes section{
     width: 100%; height: 800px;;
     position: relative;
     color: white;
-    opacity: 0.5;
+   
+    font-size: 20px;
+    
 }
 
 #div1{
-    border: 2px solid white;
+    border: 1px solid white;
     font-size: 20px;
+  
+    overflow:scroll;
 }
 #div1.t1{
     width: 62%;
     height: 800px;
+    background-color: #222;
+    opacity: .7;
 }
 
 #div1.t2{  
@@ -55,13 +67,18 @@ body{
     height: 400px;
     position: absolute; 
     top: 0px; right: 0;
+    background-color: #222;
+    opacity: .7;
 }
 
 #div1.t3{
     width: 37%;
-    height: 400px;
+    height: 402px;
     position: absolute; 
-    bottom: -4px; right: 0;
+    bottom: 0px; right: 0;
+    background-color: #222;
+    opacity: .7;
+    
 }
 
 header{
@@ -105,3 +122,27 @@ header{
 #topp.logo{
   
 }
+
+p.title1  {opacity: 0.5;
+font-size: 50px}
+p.para1 {opacity: 0.5;}
+
+p.title2  {opacity: 0.5;
+    font-size: 50px}
+p.para2 {opacity: 0.5;}
+
+p.title3  {opacity: 0.5;
+    font-size: 50px}
+p.para3 {opacity: 0.5;}
+
+p.title0  {opacity: 0.5;
+    font-size: 50px}
+p.para0 {opacity: 0.5;}
+
+section.trc{
+    font-size: 50px;}
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        opacity: .5;
