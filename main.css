@@ -42,14 +42,14 @@ body{
   
     overflow:scroll;
 }
-#div1.t1{
+#div1.sus{
     width: 62%;
     height: 800px;
     background-color: #222;
     opacity: .7;
 }
 
-#div1.t2{  
+#div1.env{  
     width: 37%;
     height: 400px;
     position: absolute; 
@@ -58,7 +58,7 @@ body{
     opacity: .7;
 }
 
-#div1.t3{
+#div1.trc{
     width: 37%;
     height: 402px;
     position: absolute; 
@@ -136,10 +136,7 @@ p.title0  {opacity: 0.5;
     font-size: 50px}
 p.para0 {opacity: 0.5;}
 
-section.trc{
-    font-size: 50px;}
-
-    .grid-container {
+.grid-container {
         display: inline-grid;
         grid-template-columns: auto auto auto;
         opacity: .55;}
