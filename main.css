@@ -1,6 +1,6 @@
 
 body{
-    margin: 0;
+    margin: 100px;
     padding: 0;
     background-image: url("trees.jpg");
     background-repeat: no-repeat;
@@ -13,15 +13,16 @@ body{
     max-width: 100%;
     border: 1px solid white;
     font-size: 20px;
-    overflow: scroll;
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, 0.70);
+    
 }
 
+
 #boxes section{
-    width: 100%; height: 800px;;
+    color: rgba(255, 204, 0, 0.7);
     position: relative;
-    color: white;
-    font-size: 20px;
-    
+    border-radius: 25px;
 }
 
 .sus{
@@ -30,6 +31,7 @@ body{
     background-color: #222;
     opacity: .7;
     border: 1px solid white;
+    border-radius: 25px;
 }
 
 .env{  
@@ -40,6 +42,7 @@ body{
     background-color: #222;
     opacity: .7;
     border: 1px solid white;
+    border-radius: 25px;
 }
 
 .trc{
@@ -50,6 +53,7 @@ body{
     background-color: #222;
     opacity: .7;
     border: 1px solid white;
+    border-radius: 25px;
 }
 
 header{
@@ -62,7 +66,6 @@ header{
     border: 1px; 
     padding: 25px;
     overflow: auto;
-    opacity: 0.7;
     display: flex;
     justify-content: center;
   }
@@ -74,38 +77,30 @@ header{
     text-decoration: none;
     font-size: 20px;
     border: 1px solid white;
-    margin: 0px;
-    padding: 35px;
+    margin: 5px;
+    padding: 25px;
   }
   
   .topnav a:hover {
     background-image: url("ppr.jpg");
     color: black;
     display: block;
-    width: 7%;
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-image: url("ppr.jpg");
+    color: black;
 }
 
 
-p.title1  {opacity: 0.5;
-font-size: 50px}
-p.para1 {opacity: 0.5;}
+p.title1  {font-size: 50px}
 
-p.title2  {opacity: 0.5;
-    font-size: 50px}
-p.para2 {opacity: 0.5;}
+p.title2  {font-size: 50px}
 
-p.title3  {opacity: 0.5;
-    font-size: 50px}
-p.para3 {opacity: 0.5;}
+p.title3  {font-size: 50px}
 
-p.title0  {opacity: 0.5;
-    font-size: 50px}
-p.para0 {opacity: 0.5;}
+p.title0  {font-size: 50px}
+
 
 footer{
     font-size: 10px;
@@ -220,12 +215,7 @@ footer{
   background-color:#313131;
   overflow:auto
   }
-  img#close {
-  position:absolute;
-  right:-14px;
-  top:-14px;
-  cursor:pointer
-  }
+
   div#popupContact {
   display : flex;
   justify-content: center;
