@@ -1,24 +1,17 @@
 <!DOCTYPE HTML>
 <html>
     <header>
-            <img src="logoo.png" alt="Logo">
+        <div id ="home"class = "topnav">
+            <img src="logo.jpg" alt="Logo" style="width:100px;height:100px;">
+            <a href = "#home"> Home</a>
+            <a href = "#pro"> Products</a>
+            <a href = "#about"> About</a>
+            <a href = "#contactus"> Contact</a>
+            <img src="logo.jpg" alt="Logo" style="width:100px;height:100px;">
+            <link rel = "stylesheet" href = "main.css">
+        </div>      
     
     </header>
-<head>
-<link rel = "stylesheet" href = "main.css">
-
-<div class = "topnav">
-    <img src="logo.jpg" alt="Logo" style="width:100px;height:100px;">
-    <a href = "home.asp"> Home</a>
-    <a href = "Products"> Products</a>
-    <a href = "about"> About</a>
-    <a href = "contact"> Contact</a>
-    <img src="logo.jpg" alt="Logo" style="width:100px;height:100px;">
-
-</div>
-<script src = "myscript.js"></script>
-</head>
-
 <body>
     
     <section id = "boxes">
@@ -31,28 +24,29 @@
         </div>
             </section>
         
-        <section id= "env">
-          <div  id = "div1" class = "sus">
-                <p class = "title0">Sustainable:</p>
+        <section id = "about" class= "triobox">
+          <div class = "sus">
+                <p class = "title0">Traceable:</p>
                 <p class ="para0">
-                    BLAH BLAH BLAH
-                </p>
-          </div>
-          
-          <div  id = "div1" class = "env">
-                <p class = "title2">Environmentally friendly:</p>
-            </div>
-        
-            <div  id = "div1" class = "trc">
-                <p class = "title3">Traceable:</p> 
-                <p class = "para3">We are collecting data on the origins of the fibre we use so we can review the flows of fibre from forests to mills to our direct suppliers and into the manufacture of our products.
+                    We are collecting data on the origins of the fibre we use so we can review the flows of fibre from forests to mills to our direct suppliers and into the manufacture of our products.
 
                 We have more than 350 direct suppliers, and require them to provide us with verifiable data on where our products are produced, through a system of self-assessment and regular progress reports using an online system we developed.
                 
                 In 2016, we simplified the data collection process to reduce the burden on suppliers and improve the accuracy of the data received. This will be rolled out in full in 2017.
                 
                 We are improving transparency each year, but it remains challenging to trace flows of market pulp and recovered material. We are building partnerships and seeking to influence the industry to make traceability and transparency an accepted part of everyday business.
-            </p>
+                </p>
+          </div>
+          
+          <div class = "env">
+                <p class = "title2">Environmentally friendly:</p>
+            </div>
+        
+            <div class = "trc">
+                <p class = "title3">Sustainable:</p> 
+                <p class = "para3">
+                    All our paper is sustainably sourced. No forests or trees are ever cut down. and all our plants run on renewable eneergies like wind and solar.
+                </p>
                 
           </div>
         </section>
@@ -96,7 +90,19 @@
   </div>
                       
         </section>
-    
+    <section id = "contactus">
+        <div id="popupContact">
+            <!-- Contact Us Form -->
+            <form action="#" id="form" method="post" name="form">
+            <h2>Contact Us</h2>
+            <hr>
+            <input id="name" name="name" placeholder="Name" type="text">
+            <input id="email" name="email" placeholder="Email" type="text">
+            <textarea id="msg" name="message" placeholder="Message"></textarea>
+            <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+            </div>
+    </section>
     </section>
     
 </body>
