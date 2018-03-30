@@ -14,14 +14,16 @@ body{
     font-size: 20px;
     overflow: hidden;
     background-color: rgba(34, 34, 34, 0.70);
+    color: rgba(255, 255, 255, 0.7);
     
 }
 
 
 #boxes section{
-    color: rgba(255, 204, 0, 0.7);
     position: relative;
     border-radius: 25px;
+    font-size: 20px;
+    
 }
 
 .sus{
@@ -31,6 +33,7 @@ body{
     opacity: .7;
     border: 1px solid white;
     border-radius: 25px;
+    color: rgba(255, 99, 3, 0.77);
 }
 
 .env{  
@@ -42,6 +45,7 @@ body{
     opacity: .7;
     border: 1px solid white;
     border-radius: 25px;
+    color: rgba(255, 99, 3, 0.77)
 }
 
 .trc{
@@ -53,6 +57,7 @@ body{
     opacity: .7;
     border: 1px solid white;
     border-radius: 25px;
+    color: rgba(255, 99, 3, 0.77)
 }
 
 header{
@@ -91,15 +96,9 @@ header{
     color: black;
 }
 
+p.title{font-size: 50px}
 
-p.title1  {font-size: 50px}
-
-p.title2  {font-size: 50px}
-
-p.title3  {font-size: 50px}
-
-p.title0  {font-size: 50px}
-
+p.para{margin: 10px;}
 
 footer{
     font-size: 10px;
