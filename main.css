@@ -107,6 +107,8 @@ footer{
     opacity: .5;
 }
 
+
+/*this code was copied from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots and had segments edited by me*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -202,6 +204,7 @@ footer{
   to {opacity: 1}
 }
 
+/*this code was copied from https://www.formget.com/how-to-create-pop-up-contact-form-using-javascript/*/
 # {
   width:100%;
   height:100%;
